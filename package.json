@@ -1,0 +1,35 @@
+{
+  "name": "covidcasesandvaccinationratesinindonesia",
+  "version": "1.0.0",
+  "description": "API information about current status of covid cases and vaccination rates in Indonesia.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpradana/covidCasesAndVaccinationRatesInIndonesia.git"
+  },
+  "keywords": [
+    "API",
+    "COVID"
+  ],
+  "author": "Muhammad Juan Pradana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanpradana/covidCasesAndVaccinationRatesInIndonesia/issues"
+  },
+  "homepage": "https://github.com/juanpradana/covidCasesAndVaccinationRatesInIndonesia#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "node-fetch": "^2.6.6"
+  }
+}
