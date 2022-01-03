@@ -3,6 +3,8 @@ const {
   getYearlyInformation,
   getMonthlyInformation,
   getMonthlyInformationWithRange,
+  getDailyInformation,
+  getDailyInformationWithRange,
 } = require('./handler');
 
 const routes = [
@@ -25,6 +27,16 @@ const routes = [
     method: 'GET',
     path: '/monthly',
     handler: getMonthlyInformationWithRange,
+  },
+  {
+    method: 'GET',
+    path: '/daily/{year}/{month}/{date?}',
+    handler: getDailyInformation,
+  },
+  {
+    method: 'GET',
+    path: '/daily/{year?}',
+    handler: getDailyInformationWithRange,
   },
 ];
 
