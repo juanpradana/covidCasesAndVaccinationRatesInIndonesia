@@ -11,31 +11,31 @@ General Info
 - http://host:port
 
 Yearly
-- http://host:port/yearly
-- http://host:port/yearly/<year>
-- http://host:port/yearly?since=<year>
-- http://host:port/yearly?upto=<year>
-- http://host:port/yearly?since=<year>&upto=<year>
+- [http://host:port/yearly]
+- [http://host:port/yearly/<year>]
+- [http://host:port/yearly?since=<year>]
+- [http://host:port/yearly?upto=<year>]
+- [http://host:port/yearly?since=<year>&upto=<year>]
   
 Monthly
-- http://host:port/monthly
-- http://host:port/monthly/<year>
-- http://host:port/monthly/<year>/<month>
-- http://host:port/monthly?since=<year>.<month>
-- http://host:port/monthly?upto=<year>.<month>
-- http://host:port/monthly?since=<year>.<month>&upto=<year>.<month>
+- [ttp://host:port/monthly]
+- [ttp://host:port/monthly/<year>]
+- [ttp://host:port/monthly/<year>/<month>]
+- [ttp://host:port/monthly?since=<year>.<month>]
+- [ttp://host:port/monthly?upto=<year>.<month>]
+- [ttp://host:port/monthly?since=<year>.<month>&upto=<year>.<month>]
   
 Daily
-- http://host:port/daily
-- http://host:port/daily/<year>
-- http://host:port/daily/<year>/<month>
-- http://host:port/daily/<year>/<month>/<date>
-- http://host:port/daily?since=<year>.<month>.<date>
-- http://host:port/daily?upto=<year>.<month>.<date>
-- http://host:port/daily?since=<year>.<month>.<date>&upto=<year>.<month>.<date>
+- [ttp://host:port/daily]
+- [ttp://host:port/daily/<year>]
+- [ttp://host:port/daily/<year>/<month>]
+- [ttp://host:port/daily/<year>/<month>/<date>]
+- [ttp://host:port/daily?since=<year>.<month>.<date>]
+- [ttp://host:port/daily?upto=<year>.<month>.<date>]
+- [ttp://host:port/daily?since=<year>.<month>.<date>&upto=<year>.<month>.<date>]
 
 
-## Backend-Early-Warning-System
+## covidCasesInIndonesia
 This is the backend that is used to get Information Indonesia Covid Case.
 
 ## requirement
