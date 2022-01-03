@@ -8,7 +8,7 @@
 **GET**
 
 General Info
-- http://host:port
+- [http://host:port]
 
 Yearly
 - [http://host:port/yearly]
