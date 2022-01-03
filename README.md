@@ -50,3 +50,6 @@ This is the backend that is used to get Information Indonesia Covid Case.
 
 ## Project Resource
 - Hapi (https://hapi.dev/)
+
+## Test Postman
+https://www.getpostman.com/collections/e358aef96231a2047bb3
